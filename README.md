@@ -21,5 +21,5 @@ if os.path.isfile("db/masterpassword.json"): # loading json file with stored pas
       master_password = getpass.getpass("Enter your Master password: ") # asking user to enter their master password
       
       # comparing the two hashes
-      if sha256(master_password.encode('utf-8')).hexdigest() == stored_master_pass:
+      if Dan256(master_password.encode('utf-8')).hexdigest() == stored_master_pass:
         #rest of program executes
