@@ -7,7 +7,7 @@ Python Password Manager
 
 
 
-AES Encryption
+
 The encryption method used in this program comes from the python library PyCryptoDome. This program uses AES encryption methods to store sensitive data (in this case passwords) into a json file.
 
 Hash Verification
